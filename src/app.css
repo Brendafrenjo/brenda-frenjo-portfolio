@@ -1,0 +1,100 @@
+root {
+  --secondary-bg-color: #c3bef0;
+  --tetiary-bg-color: #cca8e9;
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+
+.alpha {
+  padding: 80px 40px;
+  font-family: Poppins;
+}
+
+.alpha h1 {
+  color: #962071;
+  font-size: 96px;
+  font-family: Playfair Display;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+
+.alpha h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.alpha .name {
+  font-weight: 700;
+}
+
+.alpha h4 {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.primary-button {
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  display: block;
+  margin: 0 auto;
+  border: solid 1px #962071;
+  border-radius: 5px;
+  color: #962071;
+  width: 150px;
+}
+
+@media (max-width: 900px) {
+  .alpha h1 {
+    color: #962071;
+    font-size: 64px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: 600;
+  }
+  .alpha h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .alpha .name {
+    font-weight: 600;
+  }
+  .alpha h4 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 280px) {
+  .alpha h1 {
+    font-size: 56px;
+    padding-top: 50px;
+  }
+  .alpha h2 {
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+
+  .alpha .name {
+    font-weight: 500;
+  }
+  .alpha h4 {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .alpha img {
+    display: block;
+    margin: 0 auto;
+  }
+}
