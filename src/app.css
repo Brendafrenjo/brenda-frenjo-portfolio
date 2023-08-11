@@ -48,7 +48,8 @@ root {
   width: 150px;
 }
 
-.beta, .delta {
+.beta,
+.delta {
   padding: 70px 120px;
   font-family: Poppins;
   line-height: 2;
@@ -60,7 +61,8 @@ root {
   background-color: #dfb9d3;
 }
 
-.beta h2, .delta h2 {
+.beta h2,
+.delta h2 {
   font-size: 36px;
   text-align: center;
   font-weight: 500;
@@ -82,9 +84,19 @@ root {
   background-color: #962071;
 }
 
+.btn-skills:hover {
+  border: solid 1px #962071;
+  background-color: white;
+   color: #962071;
+}
+
 .btn-skills a {
   text-decoration: none;
   color: white;
+}
+
+.btn-skills a:hover {
+  color: #962071;
 }
 
 @media (max-width: 900px) {
@@ -151,13 +163,13 @@ root {
 }
 
 @media (max-width: 1200px) {
-.alpha {
-  padding-bottom: 50px;
-}
+  .alpha {
+    padding-bottom: 50px;
+  }
 
-.beta {
-  padding-top: 50px;
-}
+  .beta {
+    padding-top: 50px;
+  }
 
   .alpha img {
     display: block;
