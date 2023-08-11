@@ -15,8 +15,8 @@ root {
   font-size: 96px;
   font-family: Playfair Display;
   text-align: center;
-  padding-top: 90px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 15px;
   font-weight: 700;
 }
 
@@ -33,7 +33,7 @@ root {
 .alpha h4 {
   font-size: 24px;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .primary-button {
@@ -48,7 +48,50 @@ root {
   width: 150px;
 }
 
+.beta, .delta {
+  padding: 70px 120px;
+  font-family: Poppins;
+  line-height: 2;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.beta {
+  background-color: #dfb9d3;
+}
+
+.beta h2, .delta h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.beta .description {
+  color: white;
+}
+
+.btn-skills {
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  display: block;
+  margin: 0 auto;
+  border: solid 1px #962071;
+  border-radius: 5px;
+  background-color: #962071;
+}
+
+.btn-skills a {
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 900px) {
+  .alpha {
+    padding-bottom: 40px;
+  }
+
   .alpha h1 {
     color: #962071;
     font-size: 64px;
@@ -70,9 +113,18 @@ root {
     text-align: center;
     padding-bottom: 30px;
   }
+
+  .beta {
+    padding: 30px 30px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 280px) {
+  .alpha {
+    padding-bottom: 40px;
+  }
+
   .alpha h1 {
     font-size: 56px;
     padding-top: 50px;
@@ -90,9 +142,23 @@ root {
     font-size: 18px;
     padding-bottom: 30px;
   }
+
+  .beta {
+    padding: 30px 10px;
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 1200px) {
+.alpha {
+  padding-bottom: 50px;
+}
+
+.beta {
+  padding-top: 50px;
+}
+
   .alpha img {
     display: block;
     margin: 0 auto;
