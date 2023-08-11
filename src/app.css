@@ -48,6 +48,18 @@ root {
   width: 150px;
 }
 
+.primary-button:hover {
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  display: block;
+  margin: 0 auto;
+  border: solid 1px #962071;
+  border-radius: 5px;
+  color: #962071;
+  width: 150px;
+}
+
 .beta,
 .delta {
   padding: 70px 120px;
@@ -86,8 +98,8 @@ root {
 
 .btn-skills:hover {
   border: solid 1px #962071;
-  background-color: white;
-   color: #962071;
+  background-color: #dfb9d3;
+  color: #962071;
 }
 
 .btn-skills a {
@@ -130,6 +142,10 @@ root {
     padding: 30px 30px;
     text-align: center;
   }
+
+  .delta {
+    padding: 30px 30px;
+  }
 }
 
 @media (max-width: 280px) {
@@ -160,6 +176,10 @@ root {
     font-size: 16px;
     text-align: center;
   }
+
+  .delta {
+    padding: 30px 10px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -167,7 +187,7 @@ root {
     padding-bottom: 50px;
   }
 
-  .beta {
+  .beta, .delta {
     padding-top: 50px;
   }
 
