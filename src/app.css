@@ -38,7 +38,8 @@ h4 {
 
 .delta h2,
 .beta h2,
-.hero h2 {
+.hero h2,
+footer h2 {
   padding-bottom: 40px;
 }
 
@@ -169,6 +170,11 @@ footer .icon:hover {
   color: blue;
 }
 
+footer h4 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
 small a {
   color: white;
 }
@@ -197,7 +203,7 @@ small a:hover {
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
     font-weight: 500;
   }
