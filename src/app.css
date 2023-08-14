@@ -5,9 +5,10 @@ root {
   --secondary-font: "Poppins", sans-serif;
 }
 
-.alpha {
-  padding: 80px 40px;
+body {
   font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 h1 {
@@ -26,6 +27,15 @@ h2 {
   font-weight: 500;
 }
 
+h4 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.alpha {
+  padding: 80px 40px;
+}
+
 .delta h2,
 .beta h2,
 .hero h2 {
@@ -34,11 +44,6 @@ h2 {
 
 .alpha .name {
   font-weight: 700;
-}
-
-h4 {
-  font-size: 24px;
-  text-align: center;
 }
 
 .alpha h4 {
@@ -76,10 +81,7 @@ h4 {
 .beta,
 .delta {
   padding: 70px 120px;
-  font-family: Poppins;
   line-height: 2;
-  font-weight: 400;
-  font-size: 17px;
 }
 
 .hero {
@@ -96,11 +98,11 @@ h4 {
 }
 
 .beta {
-  background-color: #dfb9d3;
+  background-color: #f6ecef;
 }
 
 .beta .description {
-  color: white;
+  color: #962071;
 }
 
 .btn-skills {
@@ -137,10 +139,48 @@ h4 {
 
 footer {
   text-align: center;
+  padding: 100px 0 60px;
+  background-color: #f6ecef;
+  margin-top: 80px;
 }
 
 footer a {
   text-decoration: none;
+  color: #962071;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+footer p,
+footer a {
+  line-height: 2.5;
+  font-size: 20px;
+}
+
+footer .icon {
+  color: #962071;
+  font-size: 25px;
+}
+
+footer .icon:hover {
+  color: blue;
+}
+
+small a {
+  color: white;
+}
+
+small a:hover {
+  color: blue;
+}
+
+.coder {
+  background-color: #962071;
+  padding: 25px 0 25px;
+  color: white;
 }
 
 @media (max-width: 900px) {
