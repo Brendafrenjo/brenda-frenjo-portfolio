@@ -10,7 +10,7 @@ root {
   font-family: Poppins;
 }
 
-.alpha h1 {
+h1 {
   color: #962071;
   font-size: 84px;
   font-family: Playfair Display;
@@ -20,25 +20,32 @@ root {
   font-weight: 700;
 }
 
-.alpha h2 {
+h2 {
   font-size: 36px;
   text-align: center;
   font-weight: 500;
+}
+
+.delta h2,
+.beta h2,
+.hero h2 {
+  padding-bottom: 40px;
 }
 
 .alpha .name {
   font-weight: 700;
 }
 
-.alpha h4 {
+h4 {
   font-size: 24px;
   text-align: center;
+}
+
+.alpha h4 {
   padding-bottom: 30px;
 }
 
 .hero h4 {
-  font-size: 24px;
-  text-align: center;
   padding-top: 25px;
 }
 
@@ -92,15 +99,6 @@ root {
   background-color: #dfb9d3;
 }
 
-.beta h2,
-.delta h2,
-.hero h2 {
-  font-size: 36px;
-  text-align: center;
-  font-weight: 500;
-  padding-bottom: 40px;
-}
-
 .beta .description {
   color: white;
 }
@@ -137,33 +135,48 @@ root {
   margin: 0 auto;
 }
 
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   .alpha {
     padding-bottom: 40px;
   }
 
-  .alpha h1 {
+  h1 {
     color: #962071;
     font-size: 64px;
     padding-top: 60px;
     padding-bottom: 30px;
     font-weight: 600;
   }
-  .alpha h2,
-  .beta h2,
-  .delta h2,
-  .hero h2 {
+
+  h2 {
     font-size: 28px;
     text-align: center;
     font-weight: 500;
   }
 
+  .delta h2,
+  .beta h2 {
+    padding-bottom: 30px;
+  }
+
   .alpha .name {
     font-weight: 600;
   }
-  .alpha h4 {
+
+  h4 {
     font-size: 20px;
     text-align: center;
+  }
+
+  .alpha h4 {
     padding-bottom: 30px;
   }
 
@@ -172,13 +185,12 @@ root {
   }
 
   .beta {
-    padding: 30px 30px;
+    padding: 30px 20px;
     text-align: center;
   }
 
   .delta {
-    padding: 30px 30px;
-    padding-bottom: 5px;
+    padding: 30px 20px;
   }
 
   .beta,
@@ -193,26 +205,31 @@ root {
     padding-bottom: 40px;
   }
 
-  .alpha h1 {
+  h1 {
     font-size: 56px;
     padding-top: 50px;
   }
+
+  h4 {
+    font-size: 18px;
+  }
+
   .alpha h2 {
     font-size: 24px;
     font-weight: 400;
     padding-bottom: 10px;
   }
 
+  .delta h2 {
+    padding-bottom: 10px;
+  }
+
   .alpha .name {
     font-weight: 500;
   }
-  .alpha h4 {
-    font-size: 18px;
-    padding-bottom: 30px;
-  }
 
-  .hero h4 {
-    font-size: 18px;
+  .alpha h4 {
+    padding-bottom: 30px;
   }
 
   .beta {
@@ -235,6 +252,12 @@ root {
   .delta,
   .hero {
     padding-top: 50px;
+    margin-bottom: 1px;
+  }
+
+  .delta {
+    padding: 30px 30px;
+    padding-bottom: 5px;
   }
 
   .alpha img {
