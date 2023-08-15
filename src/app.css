@@ -107,6 +107,9 @@ footer h2 {
 .beta .description {
   color: #962071;
 }
+.beta .about-me {
+  margin-right: 40px;
+}
 
 .btn-skills {
   text-decoration: none;
@@ -138,6 +141,16 @@ footer h2 {
 .sites {
   display: block;
   margin: 0 auto;
+}
+
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero .col {
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
 footer {
@@ -322,6 +335,10 @@ small a:hover {
   .delta {
     padding: 30px 30px;
     padding-bottom: 5px;
+  }
+
+  .beta .about-me {
+    margin-right: 0;
   }
 
   .alpha img {
