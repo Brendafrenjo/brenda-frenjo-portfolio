@@ -159,8 +159,8 @@ footer h2 {
 
 .box {
   margin: 5px;
-  width: 150px;
-  height: 200px;
+  width: 300px;
+  height: 400px;
 }
 
 .zeta img {
@@ -281,6 +281,11 @@ small a:hover {
   .hero {
     margin-bottom: 1px;
   }
+
+  .box {
+  width: 150px;
+  height: 200px;
+}
 }
 
 @media (max-width: 280px) {
