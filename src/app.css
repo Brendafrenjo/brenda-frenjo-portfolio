@@ -9,6 +9,7 @@ body {
   font-family: Poppins;
   font-size: 17px;
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -148,9 +149,23 @@ footer h2 {
   flex-wrap: wrap;
 }
 
-.hero .col {
-  flex-basis: 0;
-  flex-grow: 1;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.box {
+  margin: 5px;
+  width: 300px;
+  height: 400px;
+}
+
+.zeta img {
+  display: block;
+  margin: 0 auto;
 }
 
 footer {
