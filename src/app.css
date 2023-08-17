@@ -58,28 +58,36 @@ footer h2 {
   padding-top: 25px;
 }
 
-.primary-button {
-  text-decoration: none;
-  text-align: center;
+.btn-primary {
   padding: 15px;
-  display: block;
-  margin: 0 auto;
+  width: 150px;
   border: solid 1px #962071;
   border-radius: 5px;
   color: #962071;
-  width: 150px;
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
 }
 
-.primary-button:hover {
-  text-decoration: none;
-  text-align: center;
+.btn-primary:hover {
+  color: #962071;
+  background-color: transparent;
+  border: solid 1px #962071;
+}
+
+.btn-secondary {
   padding: 15px;
-  display: block;
-  margin: 0 auto;
+  width: 150px;
   border: solid 1px #962071;
   border-radius: 5px;
   color: #962071;
-  width: 150px;
+  background-color: transparent;
+}
+
+.btn-secondary:hover {
+  color: #962071;
+  background-color: transparent;
+  border: solid 1px #962071;
 }
 
 .beta,
@@ -283,9 +291,9 @@ small a:hover {
   }
 
   .box {
-  width: 150px;
-  height: 200px;
-}
+    width: 150px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 280px) {
