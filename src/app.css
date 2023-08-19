@@ -28,6 +28,13 @@ h2 {
   font-weight: 500;
 }
 
+h3 {
+  font-size: 28px;
+  font-family: 400;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
 h4 {
   font-size: 24px;
   text-align: center;
@@ -118,6 +125,10 @@ footer h2 {
 }
 .beta .about-me {
   margin-right: 40px;
+}
+
+.beta .about-app {
+  margin-left: 40px;
 }
 
 .btn-skills {
@@ -371,6 +382,19 @@ small a:hover {
 
   .beta .about-me {
     margin-right: 0;
+  }
+
+  .beta .about-app {
+    margin-left: 0;
+  }
+
+  h3 {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .about-app h3 {
+    margin-top: 0;
   }
 
   .alpha img {
