@@ -198,12 +198,14 @@ footer {
   margin-top: 80px;
 }
 
-footer a {
+footer a,
+.contact-me a {
   text-decoration: none;
   color: #962071;
 }
 
-footer a:hover {
+footer a:hover,
+.contact-me a:hover {
   text-decoration: underline;
   color: blue;
 }
@@ -212,6 +214,24 @@ footer p,
 footer a {
   line-height: 2.5;
   font-size: 20px;
+}
+
+.contact-me {
+  margin-top: 90px;
+}
+
+.contact-me .icon {
+  color: #962071;
+  font-size: 40px;
+}
+
+.get-in-touch {
+  font-size: 20px;
+  color: black;
+}
+
+.get-in-touch a {
+  text-decoration: none;
 }
 
 footer .icon {
