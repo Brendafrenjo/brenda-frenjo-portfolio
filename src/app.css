@@ -40,14 +40,6 @@ h4 {
   text-align: center;
 }
 
-.main {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
 .rollheading h2 {
   text-align: center;
   text-transform: uppercase;
@@ -92,44 +84,6 @@ h4 {
   }
   72.5% {
     top: -12.25rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .rollheading h2 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #f1faee;
-    font-size: 2.125rem;
-  }
-
-  .roller {
-    height: 2.6rem;
-    line-height: 2.125rem;
-  }
-
-  #spare-time {
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-  }
-
-  .roller #rolltext {
-    animation: slide-mob 5s infinite;
-  }
-
-  @keyframes slide-mob {
-    0% {
-      top: 0;
-    }
-    25% {
-      top: -2.125rem;
-    }
-    50% {
-      top: -4.25rem;
-    }
-    72.5% {
-      top: -6.375rem;
-    }
   }
 }
 
@@ -355,6 +309,100 @@ small a:hover {
   color: white;
 }
 
+@media (max-width: 280px) {
+  .alpha {
+    padding-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 56px;
+    padding-top: 50px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .rollheading {
+    font-size: 20px;
+  }
+
+  .delta h2,
+  .beta h2,
+  .hero h2,
+  footer h2 {
+    font-size: 32px;
+  }
+
+  .alpha h2 {
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  .delta h2 {
+    padding-bottom: 10px;
+  }
+
+  .alpha .name {
+    font-weight: 500;
+  }
+
+  .alpha h4 {
+    padding-bottom: 30px;
+    line-height: 1.5;
+  }
+
+  .beta {
+    padding: 30px 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .delta {
+    padding: 30px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .rollheading h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #f1faee;
+    font-size: 2.125rem;
+  }
+
+  .roller {
+    height: 2.6rem;
+    line-height: 2.125rem;
+  }
+
+  #spare-time {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .roller #rolltext {
+    animation: slide-mob 5s infinite;
+  }
+
+  @keyframes slide-mob {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -2.125rem;
+    }
+    50% {
+      top: -4.25rem;
+    }
+    72.5% {
+      top: -6.375rem;
+    }
+  }
+}
+
 @media (max-width: 900px) {
   .alpha {
     padding-bottom: 40px;
@@ -425,58 +473,6 @@ small a:hover {
   .box {
     width: 150px;
     height: 200px;
-  }
-}
-
-@media (max-width: 280px) {
-  .alpha {
-    padding-bottom: 40px;
-  }
-
-  h1 {
-    font-size: 56px;
-    padding-top: 50px;
-  }
-
-  h4 {
-    font-size: 18px;
-  }
-
-  .delta h2,
-  .beta h2,
-  .hero h2,
-  footer h2 {
-    font-size: 32px;
-  }
-
-  .alpha h2 {
-    font-size: 28px;
-    font-weight: 400;
-    padding-bottom: 10px;
-    line-height: 1.3;
-  }
-
-  .delta h2 {
-    padding-bottom: 10px;
-  }
-
-  .alpha .name {
-    font-weight: 500;
-  }
-
-  .alpha h4 {
-    padding-bottom: 30px;
-    line-height: 1.5;
-  }
-
-  .beta {
-    padding: 30px 10px;
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .delta {
-    padding: 30px 10px;
   }
 }
 
