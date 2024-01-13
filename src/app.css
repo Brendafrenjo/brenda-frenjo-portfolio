@@ -129,18 +129,21 @@ footer h2 {
   border: solid 1px #962071;
 }
 
-.btn-secondary {
+.hello-there {
+  margin-top: 60px;
+}
+
+.secondary-btn {
   padding: 15px;
   width: 150px;
   border: solid 1px #962071;
-  border-radius: 5px;
   color: #962071;
   background-color: transparent;
 }
 
-.btn-secondary:hover {
-  color: #962071;
-  background-color: transparent;
+.secondary-btn:hover {
+  color: white;
+  background-color: #962071;
   border: solid 1px #962071;
 }
 
