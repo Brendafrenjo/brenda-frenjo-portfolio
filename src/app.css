@@ -181,6 +181,10 @@ footer h2 {
   margin-left: 40px;
 }
 
+.beta .second-about-me {
+  padding-right: 80px !important;
+}
+
 .btn-skills {
   text-decoration: none;
   text-align: center;
@@ -477,6 +481,11 @@ small a:hover {
     width: 150px;
     height: 200px;
   }
+
+  .beta .second-about-me {
+    padding-right: 10px !important;
+    padding-bottom: 40px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -512,5 +521,13 @@ small a:hover {
   .alpha img {
     display: block;
     margin: 0 auto;
+  }
+
+   .beta .second-about-me {
+    padding-right: 15px !important;
+  }
+
+  .beta .second-about-image {
+    padding-top: 80px !important;
   }
 }
