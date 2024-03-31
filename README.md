@@ -2,12 +2,14 @@ Overview:
 Welcome to Brenda Omondi's Portfolio! This repository contains the source code for Brenda Omondi's personal portfolio website, showcasing her journey, expertise, and projects as a frontend developer. The portfolio consists of three main pages: about.html, portfolio.html, and contacts.html, each serving a specific purpose.
 
 Pages:
+
 About Page (about.html):
 
 Provides an overview of Brenda Omondi's background, skills, and experience as a frontend developer.
 Highlights her expertise in crafting interactive and visually stunning web applications.
 Describes her journey from freelance writing to front-end development.
 Displays a captivating image of Brenda.
+
 Portfolio Page (portfolio.html):
 
 Showcases a selection of Brenda's projects as a frontend developer.
@@ -18,6 +20,7 @@ E-Commerce App
 Weather App
 Movie Landing Page
 Nairobi Portfolio
+
 Contacts Page (contacts.html):
 
 Offers various ways to get in touch with Brenda Omondi for collaboration, inquiries, or casual conversation.
