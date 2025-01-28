@@ -3,19 +3,13 @@ Welcome to Brenda Omondi's Portfolio! This repository contains the source code f
 
 Pages:
 
-About Page (about.html):
-
-Provides an overview of Brenda Omondi's background, skills, and experience as a frontend developer.
-Highlights her expertise in crafting interactive and visually stunning web applications.
-Describes her journey from freelance writing to front-end development.
-Displays a captivating image of Brenda.
-
 Portfolio Page (portfolio.html):
 
 Showcases a selection of Brenda's projects as a frontend developer.
 Includes detailed descriptions and screenshots of each project.
 Provides links to live demos of the projects hosted on Netlify.
 Projects featured:
+Jobs App
 E-Commerce App
 Weather App
 Movie Landing Page
